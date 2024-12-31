@@ -1,12 +1,13 @@
+// filepath: /c:/Users/aisha/OneDrive/Desktop/GitHub/revamped-personal-website/revamped-personal-website/src/App.tsx
 import React from 'react';
+import ContactMe from './ContactMe';
 
-const App: React.FC = () => {
-    return (
-        <div>
-            <h1>Welcome to My Revamped Personal Website</h1>
-            <p>This is a simple React TypeScript application.</p>
-        </div>
-    );
-};
+function App() {
+  return (
+    <div>
+      <ContactMe />
+    </div>
+  );
+}
 
 export default App;

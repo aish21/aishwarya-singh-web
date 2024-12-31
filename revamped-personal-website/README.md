@@ -7,21 +7,25 @@ This is a React TypeScript application named "revamped-personal-website". It ser
 To get started with the project, follow these steps:
 
 1. **Clone the repository:**
+
    ```
    git clone https://github.com/yourusername/revamped-personal-website.git
    ```
 
 2. **Navigate into the project directory:**
+
    ```
    cd revamped-personal-website
    ```
 
 3. **Install dependencies:**
+
    ```
    npm install
    ```
 
 4. **Run the application:**
+
    ```
    npm start
    ```
