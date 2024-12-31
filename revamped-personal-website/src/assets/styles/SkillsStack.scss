@@ -1,0 +1,85 @@
+.skills-group {
+  padding: 5% 10%;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+
+  svg {
+    color: white;
+  }
+}
+
+.skills-group .skills-group-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 50px;
+}
+
+.skills-group .skills-group-container .skills-group-item {
+  align-items: center;
+  text-align: left;
+}
+
+.chip {
+  color: rgb(39, 40, 34) !important;
+  background-color: white !important;
+  font-size: 0.8rem !important;
+  height: 25px !important;
+
+  span {
+    font-family: 'Courier Prime', monospace;
+    color: rgb(39, 40, 34);
+  }
+
+  svg {
+    height: 15px !important;
+  }
+}
+
+.all-skills {
+  line-height: 2;
+  margin: 0.5;
+
+  .chip-title {
+    color: white;
+    padding-right: 10px;
+  }
+}
+
+.all-skills .MuiChip-root {
+  margin-right: 0.5em;
+}
+
+.all-skills .MuiChip-outlined {
+  background-color: #e0e0e0;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.all-skills .MuiChip-outlined span {
+  color: rgb(39, 40, 34);
+}
+
+@media screen {
+  @media (max-width: 768px) {
+    .skills-group {
+      display: block;
+      padding-left: 5%;
+      padding-right: 5%;
+    }
+
+    .skills-group .skills-group-container {
+      display: initial;
+    }
+
+    .skills-group .skills-group-container .skills-group-item {
+      padding-bottom: 5%;
+    }
+  }
+
+  @media (max-width: 567px) {
+    .skills-group-item {
+      font-size: 12px;
+    }
+  }
+}

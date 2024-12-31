@@ -5,6 +5,7 @@ import TextField from '@mui/material/TextField';
 import SendIcon from '@mui/icons-material/Send';
 import emailjs from '@emailjs/browser';
 import emailConfig from '../emailConfig';
+import '../assets/styles/ContactMe.scss';
 
 function ContactMe() {
   const [name, setName] = useState<string>('');
