@@ -30,48 +30,43 @@ function Experience() {
               Bank of America, Singapore
             </h4>
             <p>
-              Full-stack Web Development, GenAI/LLM, Project Management,
-              Business Development
+              Full-stack Web Development, API Development, Quartz, Structured
+              Notes
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2020 - 2022"
+            date="2022 - 2023"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
             <h3 className="vertical-timeline-element-title">
-              Full Stack Engineer
+              Web and Mobile Development Intern
             </h3>
-            <h4 className="vertical-timeline-element-subtitle">Laie, HI</h4>
+            <h4 className="vertical-timeline-element-subtitle">
+              Panasonic Research and Development Center, Singapore
+            </h4>
             <p>
-              Frontend Development, Backend Development, User Experience, Team
-              Leading
+              Android Application Development, Web Development, DevOps (Docker),
+              Cloud
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2021 - 2021"
+            date="Aug 2021 - Oct 2021"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
             <h3 className="vertical-timeline-element-title">
-              Staff Engineer Intern
+              Data Science Intern (Part-time)
             </h3>
-            <h4 className="vertical-timeline-element-subtitle">Laie, HI</h4>
-            <p>Full-stack Development, API Development, User Experience</p>
-          </VerticalTimelineElement>
-          <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            date="2020 - 2020"
-            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
-            icon={<FontAwesomeIcon icon={faBriefcase} />}
-          >
-            <h3 className="vertical-timeline-element-title">
-              Data Analyst Intern
-            </h3>
-            <h4 className="vertical-timeline-element-subtitle">Tokyo, Japan</h4>
-            <p>Automation, Data Governance, Statistical Analysis</p>
+            <h4 className="vertical-timeline-element-subtitle">
+              Ubisoft, Singapore
+            </h4>
+            <p>
+              Machine Learing, Neural Networks, Deep Learning, Data Cleaning,
+              Hyperparameter Tuning
+            </p>
           </VerticalTimelineElement>
         </VerticalTimeline>
       </div>

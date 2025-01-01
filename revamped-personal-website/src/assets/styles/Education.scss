@@ -1,0 +1,63 @@
+.education-container {
+  padding: 5% 10%;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+
+  svg {
+    color: white;
+  }
+}
+
+.education-container h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+
+.education-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.dark-mode .education-container h1 {
+  color: #ffffff; /* Color for dark mode */
+}
+
+.light-mode .education-container h1 {
+  color: #333; /* Color for light mode */
+}
+
+.education-item {
+  align-items: center;
+  text-align: left;
+  background-color: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.education-item h2 {
+  font-size: 1.8em;
+  margin-bottom: 10px;
+  color: #5000ca;
+}
+
+.education-item p {
+  font-size: 1.2em;
+  margin: 5px 0;
+  color: #000000;
+}
+
+.education-item ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin-top: 10px;
+}
+
+.education-item ul li {
+  font-size: 1em;
+  color: #000000;
+  margin-bottom: 5px;
+}

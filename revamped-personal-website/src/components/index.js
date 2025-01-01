@@ -5,3 +5,4 @@ export { default as SkillsStack } from './SkillsStack';
 export { default as Experience } from './Experience';
 export { default as ProjectsComponent } from './ProjectsComponent';
 export { default as ContactMe } from './ContactMe';
+export { default as Education } from './Education';

@@ -4,8 +4,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   faReact,
   faDocker,
-  faPython,
   faAndroid,
+  faPython,
 } from '@fortawesome/free-brands-svg-icons';
 import Chip from '@mui/material/Chip';
 import '../assets/styles/SkillsStack.scss';
@@ -83,7 +83,7 @@ function SkillsStack() {
           </div>
 
           <div className="skills-group-item">
-            <FontAwesomeIcon icon={faReact} size="3x" />
+            <FontAwesomeIcon icon={faPython} size="3x" />
             <h3>Data Science & Machine Learning</h3>
             <p>
               I have worked on data analysis and machine learning projects using

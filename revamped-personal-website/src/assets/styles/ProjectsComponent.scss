@@ -5,6 +5,34 @@
   text-align: left;
 }
 
+.project ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin-top: 10px;
+}
+
+.project ul li {
+  font-size: 1em;
+  margin-bottom: 5px;
+  color: #ffffff; /* Default color */
+}
+
+.dark-mode .project p {
+  color: #ffffff;
+}
+
+.dark-mode .project ul li {
+  color: #ffffff; /* Color for dark mode */
+}
+
+.light-mode .project p {
+  color: #000000;
+}
+
+.light-mode .project ul li {
+  color: #000000; /* Color for light mode */
+}
+
 .projects-container .projects-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);

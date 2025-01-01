@@ -1,6 +1,7 @@
 import React from 'react';
 import { GitHub, LinkedIn } from '@mui/icons-material';
 import profilePic from '../assets/images/profile_pic.png';
+import '../assets/styles/Main.scss';
 
 function Main() {
   return (
@@ -27,8 +28,7 @@ function Main() {
             </a>
           </div>
           <h1>Aishwarya Singh</h1>
-          <p>Technology Analyst</p>
-
+          <p>Technology Analyst @ Bank of America</p>
           <div className="mobile_social_icons">
             <a
               href="https://github.com/aish21"

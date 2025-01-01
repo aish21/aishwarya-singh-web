@@ -18,10 +18,11 @@ import Toolbar from '@mui/material/Toolbar';
 
 const drawerWidth = 240;
 const navItems = [
-  ['Expertise', 'expertise'],
-  ['History', 'history'],
+  ['Skills Stack', 'skills-stack'],
+  ['Education', 'education'],
+  ['Experience', 'history'],
   ['Projects', 'projects'],
-  ['Contact', 'contact'],
+  ['Contact Me', 'contact-me'],
 ];
 
 interface NavBarProps {

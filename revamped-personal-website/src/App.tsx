@@ -7,6 +7,7 @@ import {
   ContactMe,
   NavBar,
   PageFooter,
+  Education,
 } from './components';
 import AnimateComponent from './components/AnimateComponent';
 import './index.scss';
@@ -34,6 +35,7 @@ function App() {
       <AnimateComponent transitionDuration={700}>
         <Main />
         <SkillsStack />
+        <Education />
         <Experience />
         <ProjectsComponent />
         <ContactMe />

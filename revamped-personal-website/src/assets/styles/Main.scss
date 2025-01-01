@@ -1,3 +1,10 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
 .dark-mode .main-section {
   background-color: rgba(0, 0, 0, 0.2);
 }
@@ -52,7 +59,7 @@
 .main-section .image-wrapper {
   z-index: 2;
   img {
-    width: 150px;
+    width: 250px;
     border-radius: 50%;
   }
 }

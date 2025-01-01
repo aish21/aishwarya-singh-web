@@ -135,11 +135,11 @@ button {
     color: #0d1116;
   }
 
-  .about-section {
+  .main-section {
     background-image: url('./assets/images/light-mode.png');
   }
 
-  .skills-container svg {
+  .skills-group svg {
     color: #0d1116;
   }
 
@@ -172,7 +172,7 @@ button {
     border-right: 7px solid rgba(0, 0, 0, 0.08) !important;
   }
 
-  .flex-chips .chip-title {
+  .all-skills .chip-title {
     color: #0d1116;
   }
 }

@@ -13,26 +13,6 @@ function ProjectsComponent() {
       <div className="projects-grid">
         <div className="project">
           <a
-            href="https://github.com/aish21/Jugaad"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <img src={jugaad} className="zoom" alt="thumbnail" width="100%" />
-          </a>
-          <a
-            href="https://github.com/aish21/Jugaad"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <h2>Jugaad</h2>
-          </a>
-          <p>
-            A web-app for entrepreneurs that allows them to easily set up an
-            online business.
-          </p>
-        </div>
-        <div className="project">
-          <a
             href="https://ieeexplore.ieee.org/document/10605378"
             target="_blank"
             rel="noreferrer"
@@ -56,6 +36,15 @@ function ProjectsComponent() {
             impaired individuals, integrating BLE technology and computer vision
             to provide real-time, voice-enabled assistance."
           </p>
+          <ul>
+            <li>
+              Published in the 2024 IEEE Conference on Artificial Intelligence
+              (CAI)
+            </li>
+            <li>Implemented computer vision-based object detection</li>
+            <li>Provided real-time, voice-enabled assistance</li>
+            <li>Reduced navigation time by 37.34% for non-visual navigation</li>
+          </ul>
         </div>
         <div className="project">
           <a
@@ -76,6 +65,38 @@ function ProjectsComponent() {
             A mobile application that allows users to explore and discover
             walking trails in Singapore
           </p>
+          <ul>
+            <li>Register and Login with details</li>
+            <li>View past trails, and discover new ones</li>
+            <li>In-app music player</li>
+            <li>Live trail calculates steps and calories</li>
+          </ul>
+        </div>
+        <div className="project">
+          <a
+            href="https://github.com/aish21/Jugaad"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img src={jugaad} className="zoom" alt="thumbnail" width="100%" />
+          </a>
+          <a
+            href="https://github.com/aish21/Jugaad"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <h2>Jugaad</h2>
+          </a>
+          <p>
+            A web-app for entrepreneurs that allows them to easily set up an
+            online business.
+          </p>
+          <ul>
+            <li>Register/login to the web app</li>
+            <li>Customize online store (image, socials)</li>
+            <li>Create and post ads</li>
+            <li>Host demo live streams</li>
+          </ul>
         </div>
         <div className="project">
           <a
@@ -96,6 +117,12 @@ function ProjectsComponent() {
             A web application that connects fitness tutors and tutees on an
             online platform
           </p>
+          <ul>
+            <li>Start/Attend a workout session</li>
+            <li>Backend pose detection corrects user's pose</li>
+            <li>Live session with tutor and other tutees</li>
+            <li>Register/login to the web app</li>
+          </ul>
         </div>
         <div className="project">
           <a
@@ -113,6 +140,17 @@ function ProjectsComponent() {
             <h2>WyldFire</h2>
           </a>
           <p>A web based wildfire prediction and simulation</p>
+          <ul>
+            <li>
+              Render live location/search location/search via latitude and
+              longitude
+            </li>
+            <li>Take Screenshot of affected area</li>
+            <li>
+              Wildfire path prediction and simulation (Djikstra's Algorithm)
+            </li>
+            <li>Real time simulation</li>
+          </ul>
         </div>
       </div>
     </div>
