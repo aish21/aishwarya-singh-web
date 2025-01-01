@@ -1,10 +1,10 @@
-.contact_wrapper svg {
+.contact-me-wrapper svg {
   font-size: 1em;
   vertical-align: middle;
   margin-right: 5px;
 }
 
-.contact-form {
+.contact-me-form {
   padding-top: 20px;
 
   button {
@@ -28,13 +28,13 @@ label {
   font-family: 'DomaineDispNar-Medium', sans-serif;
 }
 
-.form-flex {
+.form-input {
   display: flex;
   gap: 15px;
   padding-bottom: 15px;
 }
 
-.form-flex .MuiFormControl-root {
+.form-input .MuiFormControl-root {
   width: 100%;
 }
 
