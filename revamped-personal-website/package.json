@@ -39,12 +39,6 @@
     "prettier-plugin-import-sort": "^0.0.7",
     "prettier-plugin-sort-imports": "^1.8.6"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
   "browserslist": {
     "production": [
       ">0.2%",
@@ -57,5 +51,5 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "http://aish21.github.io/revamped-personal-website"
+  "homepage": "http://aish21.github.io/aishwarya-singh-web"
 }
