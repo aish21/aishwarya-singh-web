@@ -24,7 +24,7 @@ function Experience() {
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
             <h3 className="vertical-timeline-element-title">
-              Technology Analyst
+              Software Engineer II
             </h3>
             <h4 className="vertical-timeline-element-subtitle">
               Bank of America, Singapore
