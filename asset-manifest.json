@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/aishwarya-singh-web/static/css/main.b23223cd.css",
-    "main.js": "/aishwarya-singh-web/static/js/main.f113d112.js",
+    "main.js": "/aishwarya-singh-web/static/js/main.bc77fb4d.js",
     "static/media/profile_pic.png": "/aishwarya-singh-web/static/media/profile_pic.b8a5773c9a36e170f3c2.png",
     "static/media/eye.gif": "/aishwarya-singh-web/static/media/eye.b720e32fa5bf7f949a78.gif",
     "static/media/light-mode.png": "/aishwarya-singh-web/static/media/light-mode.4a5a459f8dab8a2a479f.png",
@@ -9,10 +9,10 @@
     "static/media/trailx-logo.png": "/aishwarya-singh-web/static/media/trailx-logo.5645564b7f8d7cf9952f.png",
     "index.html": "/aishwarya-singh-web/index.html",
     "main.b23223cd.css.map": "/aishwarya-singh-web/static/css/main.b23223cd.css.map",
-    "main.f113d112.js.map": "/aishwarya-singh-web/static/js/main.f113d112.js.map"
+    "main.bc77fb4d.js.map": "/aishwarya-singh-web/static/js/main.bc77fb4d.js.map"
   },
   "entrypoints": [
     "static/css/main.b23223cd.css",
-    "static/js/main.f113d112.js"
+    "static/js/main.bc77fb4d.js"
   ]
 }
