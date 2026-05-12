@@ -28,7 +28,10 @@ function Main() {
             </a>
           </div>
           <h1>Aishwarya Singh</h1>
-          <p>Software Engineer II @ Bank of America</p>
+          <p>
+            Software Engineer II, Equity Linked Technology - Structured Notes @
+            Bank of America
+          </p>
           <div className="mobile_social_icons">
             <a
               href="https://github.com/aish21"

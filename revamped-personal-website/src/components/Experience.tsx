@@ -19,19 +19,39 @@ function Experience() {
             className="vertical-timeline-element--work"
             contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
             contentArrowStyle={{ borderRight: '7px solid  white' }}
-            date="2023 - present"
+            date="Jul 2025 - Present"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
             <h3 className="vertical-timeline-element-title">
-              Software Engineer II
+              Software Engineer II, Equity Linked Technology - Structured Notes
             </h3>
             <h4 className="vertical-timeline-element-subtitle">
               Bank of America, Singapore
             </h4>
             <p>
-              Full-stack Web Development, API Development, Quartz, Structured
-              Notes
+              Re-architected a unified Quote API for structured-products pricing
+              and booking; scaled high-throughput pricing and booking workflows;
+              optimized lifecycle and downstream integration pipelines.
+            </p>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            date="Jul 2023 - Jul 2025"
+            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
+            icon={<FontAwesomeIcon icon={faBriefcase} />}
+          >
+            <h3 className="vertical-timeline-element-title">
+              Graduate Technology Analyst - Software Engineering, Equity Linked
+              Technology
+            </h3>
+            <h4 className="vertical-timeline-element-subtitle">
+              Bank of America, Singapore
+            </h4>
+            <p>
+              Delivered frontend and backend enhancements for structured notes
+              pricing and quote retrieval; improved API query performance and
+              CI/CD reliability.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
