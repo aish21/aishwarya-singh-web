@@ -2,7 +2,6 @@
 
 # dependencies
 /revamped-personal-website/node_modules
-/revamped-personal-website/src/emailConfig.ts
 
 # testing
 /coverage
