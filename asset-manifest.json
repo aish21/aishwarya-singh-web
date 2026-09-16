@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/aishwarya-singh-web/static/css/main.d8ebb70e.css",
-    "main.js": "/aishwarya-singh-web/static/js/main.2a132bd3.js",
+    "main.css": "/aishwarya-singh-web/static/css/main.5656d195.css",
+    "main.js": "/aishwarya-singh-web/static/js/main.b1f19876.js",
     "index.html": "/aishwarya-singh-web/index.html",
-    "main.d8ebb70e.css.map": "/aishwarya-singh-web/static/css/main.d8ebb70e.css.map",
-    "main.2a132bd3.js.map": "/aishwarya-singh-web/static/js/main.2a132bd3.js.map"
+    "main.5656d195.css.map": "/aishwarya-singh-web/static/css/main.5656d195.css.map",
+    "main.b1f19876.js.map": "/aishwarya-singh-web/static/js/main.b1f19876.js.map"
   },
   "entrypoints": [
-    "static/css/main.d8ebb70e.css",
-    "static/js/main.2a132bd3.js"
+    "static/css/main.5656d195.css",
+    "static/js/main.b1f19876.js"
   ]
 }
