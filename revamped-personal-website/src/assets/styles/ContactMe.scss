@@ -1,48 +1,5 @@
-.contact-me-wrapper svg {
-  font-size: 1em;
-  vertical-align: middle;
-  margin-right: 5px;
-}
-
-.contact-me-form {
-  padding-top: 20px;
-
-  button {
-    float: right;
-    background-color: white;
-    color: #050f0b;
-  }
-
-  button:hover {
-    background-color: #5000ca;
-    color: white;
-  }
-
-  fieldset {
-    background-color: white;
-  }
-}
-
-label {
-  font-size: 1.2rem;
-  font-family: 'DomaineDispNar-Medium', sans-serif;
-}
-
-.form-input {
-  display: flex;
-  gap: 15px;
-  padding-bottom: 15px;
-}
-
-.form-input .MuiFormControl-root {
-  width: 100%;
-}
-
-form {
-  width: 100% !important;
-}
-
-.body-form {
-  width: 100% !important;
-  margin-bottom: 15px !important;
-}
+﻿.contact-layout { display: grid; grid-template-columns: 1fr 1.3fr; gap: 32px; align-items: start; }
+.contact-layout h3 { font-size: clamp(1.5rem, 3vw, 2rem); }
+.email-link { font-size: clamp(1rem, 2vw, 1.35rem); overflow-wrap: anywhere; }
+.contact-layout .link-group { margin-top: 20px; font-size: .9375rem; }
+@media (max-width: 600px) { .contact-layout { grid-template-columns: 1fr; gap: 20px; } }

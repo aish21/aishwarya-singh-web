@@ -1,24 +1,8 @@
-import React from 'react';
-import { GitHub, LinkedIn } from '@mui/icons-material';
+﻿import React from 'react';
+import { links, SocialLinks } from './Links';
 import '../assets/styles/PageFooter.scss';
 
 function PageFooter() {
-  return (
-    <footer>
-      <div>
-        <a href="https://github.com/aish21" target="_blank" rel="noreferrer">
-          <GitHub />
-        </a>
-        <a
-          href="https://www.linkedin.com/in/aishwarya-singh-547092174/"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <LinkedIn />
-        </a>
-      </div>
-    </footer>
-  );
+  return <footer className="site-footer shell"><p>Aishwarya Singh <span aria-hidden="true">·</span> Singapore</p><div className="footer-links"><SocialLinks /><a href={links.email}>Email</a></div></footer>;
 }
-
 export default PageFooter;

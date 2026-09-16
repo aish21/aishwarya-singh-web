@@ -1,57 +1,17 @@
-import React from 'react';
-import { GitHub, LinkedIn } from '@mui/icons-material';
-import profilePic from '../assets/images/profile_pic.png';
+﻿import React from 'react';
+import { SocialLinks } from './Links';
 import '../assets/styles/Main.scss';
 
 function Main() {
   return (
-    <div className="container">
-      <div className="main-section">
-        <div className="image-wrapper">
-          <img src={profilePic} alt="Avatar" />
-        </div>
-        <div className="content">
-          <div className="social_icons">
-            <a
-              href="https://github.com/aish21"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <GitHub />
-            </a>
-            <a
-              href="https://www.linkedin.com/in/aishwarya-singh-547092174/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <LinkedIn />
-            </a>
-          </div>
-          <h1>Aishwarya Singh</h1>
-          <p>
-            Software Engineer II, Equity Linked Technology - Structured Notes @
-            Bank of America
-          </p>
-          <div className="mobile_social_icons">
-            <a
-              href="https://github.com/aish21"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <GitHub />
-            </a>
-            <a
-              href="https://www.linkedin.com/in/aishwarya-singh-547092174/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <LinkedIn />
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
+    <section className="hero shell" id="home" aria-labelledby="hero-title">
+      <p className="eyebrow">Backend & platform engineering <span className="hero-location">Singapore</span></p>
+      <h1 id="hero-title">Aishwarya Singh<span className="accent">.</span></h1>
+      <p className="hero-statement">Software Engineer II building backend and platform systems for global markets.</p>
+      <p className="hero-description">I work across APIs, pricing and booking workflows, event-driven systems, production reliability, and applied machine learning.</p>
+      <div className="hero-actions"><a className="button primary" href="#projects">View my work <span aria-hidden="true">↓</span></a><SocialLinks /></div>
+      <div className="hero-note"><span>Currently at Bank of America</span><span>Equity Linked Technology / Structured Products</span></div>
+    </section>
   );
 }
-
 export default Main;

@@ -1,36 +1,10 @@
-import React from 'react';
+﻿import React from 'react';
 import '../assets/styles/Education.scss';
 
 function Education() {
-  return (
-    <div className="education-container" id="education">
-      <h1>Education</h1>
-      <div className="education-grid">
-        <div className="education-item">
-          <h2>Nanyang Technological University, Singapore</h2>
-          <p>Bachelor of Engineering (Hon.) in Computer Engineering</p>
-          <p>2019 - 2023</p>
-          <ul>
-            <li>Specialisation: Data Science & Artificial Intelligence</li>
-            <li>
-              Publication: 'Cultivating Navigational Autonomy in the Visually
-              Impaired: A Novel Approach with VirtualEYE' - 2024 IEEE Conference
-              on Artificial Intelligence (CAI)
-            </li>
-            <li>
-              Google Developer Students Club (GDSC) @ NTU (2020-2022) - Events
-              Member | Lead
-            </li>
-            <li>
-              Institute of Electrical and Electronics Engineers (IEEE) @ NTU
-              (2019-2022) - Tech Director | Logistics Officer | Events
-              Chairperson
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  );
+  return <section className="section shell" id="education" aria-labelledby="education-title">
+    <div className="section-heading"><span className="section-number">05 /</span><h2 id="education-title">Education</h2></div>
+    <div className="education-row"><p className="eyebrow">2019–2023</p><div><h3>Nanyang Technological University, Singapore</h3><p>Bachelor of Engineering (Honours), Computer Engineering</p><p className="muted">Academic focus: Data Science & Artificial Intelligence</p></div></div>
+  </section>;
 }
-
 export default Education;

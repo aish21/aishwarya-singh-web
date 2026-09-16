@@ -1,0 +1,19 @@
+﻿.site-header { position: sticky; top: 0; z-index: 20; background: var(--bg); border-bottom: 1px solid var(--border); }
+.nav-inner { display: flex; min-height: 76px; align-items: center; gap: 28px; }
+.wordmark { font-size: 1.5rem; font-weight: 700; letter-spacing: -.07em; color: var(--ink); text-decoration: none; }
+.wordmark span { color: var(--accent); }
+.section-nav { margin-left: auto; display: flex; align-items: center; gap: 25px; }
+.section-nav a { color: var(--muted); text-decoration: none; font-size: .875rem; padding-block: 12px; }
+.section-nav a:hover { color: var(--accent); text-decoration: underline; }
+.nav-controls { display: flex; align-items: center; gap: 10px; }
+.theme-toggle, .menu-toggle { border: 1px solid var(--border); background: transparent; color: var(--ink); min-width: 44px; min-height: 44px; border-radius: 3px; }
+.theme-toggle { display: grid; place-items: center; }
+.theme-toggle:hover, .menu-toggle:hover { background: var(--surface); }
+.menu-toggle { display: none; padding-inline: 12px; font-size: .875rem; }
+@media (max-width: 800px) {
+  .nav-inner { min-height: 66px; justify-content: space-between; }
+  .menu-toggle { display: block; }
+  .section-nav { display: none; position: absolute; top: 100%; left: 0; right: 0; background: var(--bg); border-bottom: 1px solid var(--border); padding: 16px 28px 24px; }
+  .section-nav.is-open { display: grid; grid-template-columns: repeat(2, 1fr); gap: 4px 24px; }
+  .section-nav a { font-size: 1rem; }
+}

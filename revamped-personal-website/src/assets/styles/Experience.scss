@@ -1,38 +1,17 @@
-.vertical-timeline span {
-  color: white;
-  font-family: 'Courier Prime', monospace;
-}
-
-.vertical-timeline p {
-  color: rgb(39, 40, 34);
-}
-
-.vertical-timeline-element p {
-  color: rgb(39, 40, 34);
-}
-
-.vertical-timeline-element h3 {
-  color: rgb(39, 40, 34);
-}
-
-.vertical-timeline-element h4 {
-  color: rgb(39, 40, 34);
-}
-
-.vertical-timeline-element span {
-  color: rgb(39, 40, 34);
-}
-
-.vertical-timeline-element .vertical-timeline-element-date {
-  color: white;
-}
-
-.svg-inline--fa {
-  color: white;
-}
-
-@media screen and (max-width: 1170px) {
-  .vertical-timeline-element .vertical-timeline-element-date {
-    color: rgb(39, 40, 34);
-  }
+﻿.experience-row { display: grid; grid-template-columns: 1fr 1.75fr; gap: 64px; padding-block: 30px; border-bottom: 1px solid var(--border); }
+.experience-row:first-of-type { padding-top: 0; }
+.role-meta h3 { margin: 12px 0 10px; }
+.company { font-weight: 600; }
+.role-meta .muted { font-size: .875rem; margin-top: 6px; }
+.impact-list { margin: 0; padding-left: 20px; }
+.impact-list li { padding-left: 6px; margin-bottom: 13px; }
+.impact-list li::marker { color: var(--accent); font-size: .7em; }
+.earlier-experience { margin-top: 34px; }
+.earlier-row { display: grid; grid-template-columns: 1fr 1.75fr; gap: 64px; padding-block: 16px; }
+.earlier-row p { font-size: .9375rem; }
+.earlier-row .muted { font-size: .8125rem; margin-top: 4px; }
+@media (max-width: 900px) { .experience-row, .earlier-row { gap: 32px; } }
+@media (max-width: 600px) {
+  .experience-row, .earlier-row { grid-template-columns: 1fr; gap: 20px; }
+  .earlier-row { gap: 8px; }
 }
