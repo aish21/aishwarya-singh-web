@@ -1,5 +1,5 @@
 ﻿.work-section { background: var(--surface); }
-.featured-project { display: grid; grid-template-columns: 1.15fr 1fr; gap: 64px; }
+.featured-project { display: grid; grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr); gap: 64px; border-top: 2px solid var(--accent); padding-top: 28px; }
 .project-intro h3 { font-size: 3rem; letter-spacing: -.045em; margin: 16px 0 20px; }
 .project-lead { font-size: 1.125rem; }
 .project-actions { margin-top: 26px; }
@@ -8,9 +8,10 @@
 .project-detail p, .engineering-list { font-size: .9375rem; }
 .engineering-list { padding-left: 20px; margin: 20px 0 0; }
 .engineering-list li { margin-bottom: 10px; }
-.project-results { display: grid; grid-template-columns: 1fr 1.2fr 1.25fr; gap: 32px; margin-top: 36px; padding-block: 26px; border-block: 1px solid var(--border); align-items: center; }
+.project-results { display: grid; grid-template-columns: 1fr 1.2fr 1.25fr; gap: 32px; margin-top: 36px; padding-block: 26px; border-block: 1px solid var(--border); align-items: start; }
 .project-results p { margin: 0; }
 .project-results strong { display: block; font-size: 1.8rem; font-weight: 500; letter-spacing: -.035em; }
+.project-results > p:nth-child(2) { border-left: 1px solid var(--border); padding-left: 24px; }
 .project-results span { display: block; font-size: .8125rem; color: var(--muted); margin-top: 6px; }
 .results-note { font-size: .8125rem; color: var(--muted); }
 .earlier-projects { margin-top: 38px; }
@@ -28,4 +29,13 @@
   .project-intro h3 { font-size: 2.5rem; }
   .project-detail { border-left: 0; border-top: 1px solid var(--border); padding: 24px 0 0; }
   .earlier-project-grid { grid-template-columns: 1fr; gap: 22px; }
+}
+@media (min-width: 601px) and (max-width: 800px) {
+  .featured-project { grid-template-columns: 1fr; gap: 28px; }
+  .project-detail { border-left: 0; border-top: 1px solid var(--border); padding: 24px 0 0; }
+  .project-results { grid-template-columns: 1fr 1fr; gap: 20px 28px; }
+  .results-note { grid-column: 1 / -1; }
+}
+@media (max-width: 600px) {
+  .project-results > p:nth-child(2) { border-left: 0; padding-left: 0; }
 }
